@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 
 # Configure Google Gemini API Key
-GEMINI_API_KEY = "PASTE_API_KEY"
+GEMINI_API_KEY = "AIzaSyAjilXep3mwyuo0vmMy3EM0J4bzsUxsa-E"
 genai.configure(api_key=GEMINI_API_KEY)
 
 def review_code(code):
